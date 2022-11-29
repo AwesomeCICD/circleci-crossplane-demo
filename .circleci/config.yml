@@ -21,7 +21,7 @@ jobs:
           cluster-name: cera-apne1-japac
           aws-region: ap-northeast-1
       - kubernetes/create-or-update-resource:
-          resource-file-path: ./crossplane/postgres-aws.yaml
+          resource-file-path: ./crossplane/ #postgres-aws.yaml
 
 workflows:
   main: 
