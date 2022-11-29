@@ -26,6 +26,5 @@ jobs:
 workflows:
   main: 
     jobs:
-      - deploy
-
-# VS Code Extension Version: 1.2.0
+      - deploy:
+          context: empty-context #to trigger OIDC token generation
